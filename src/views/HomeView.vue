@@ -6,12 +6,14 @@
   <br />
   <br />
 <TestimonialVue />
+<LoadSpinnerComponent/>
 </template>
 
 <script>
 import TestimonialVue from '@/components/TestimonialVue.vue';
 import LandingPage from '@/components/LandingPage.vue';
 import BannerComponent from '@/components/BannerComponent.vue';
+import LoadSpinnerComponent from '@/components/LoadSpinnerComponent.vue';
 
 
 export default {
@@ -19,6 +21,7 @@ export default {
     TestimonialVue,
     LandingPage,
     BannerComponent,
+    LoadSpinnerComponent
   }
 }
 
