@@ -13,11 +13,12 @@ import TestimonialVue from '@/components/TestimonialVue.vue';
 import LandingPage from '@/components/LandingPage.vue';
 import BannerComponent from '@/components/BannerComponent.vue';
 
+
 export default {
   components: {
     TestimonialVue,
     LandingPage,
-    BannerComponent
+    BannerComponent,
   }
 }
 
