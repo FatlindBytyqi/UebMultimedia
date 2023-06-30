@@ -8,17 +8,11 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12 mt-4 pt-2">
                             <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                                <img src="https://cdn.pixabay.com/photo/2017/01/07/17/48/interior-1961070_1280.jpg" class="img-fluid" alt="Image" />
+                                <img src="https://res.cloudinary.com/duu3v9gfg/image/fetch/t_fit_1920/https://78884ca60822a34fb0e6-082b8fd5551e97bc65e327988b444396.ssl.cf3.rackcdn.com/up/2020/02/Kelmendi-05-1582895642-1582895642.jpg" class="img-fluid" alt="Image" />
                                 <div class="img-overlay bg-dark"></div>
                             </div>
                         </div>
                         <!--end col-->
-
-                        <div class="col-12">
-                            <div class="mt-4 pt-2 text-right">
-                                <a href="javascript:void(0)" class="btn btn-info">Read More <i class="mdi mdi-chevron-right"></i></a>
-                            </div>
-                        </div>
                     </div>
                     <!--end row-->
                 </div>
@@ -28,7 +22,7 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12">
                             <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                                <img src="https://cdn.pixabay.com/photo/2014/07/10/17/17/bedroom-389254_1280.jpg" class="img-fluid" alt="Image" />
+                                <img src="https://www.judoinside.com/photos/hans/2014/IJF_Grand_Slam_Paris/20140208_Paris_KELMENDI,%20Majlinda%20(KOS)_1%20(3).jpg" class="img-fluid" alt="Image" />
                                 <div class="img-overlay bg-dark"></div>
                             </div>
                         </div>
@@ -36,7 +30,7 @@
 
                         <div class="col-lg-12 col-md-12 mt-4 pt-2">
                             <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
-                                <img src="https://cdn.pixabay.com/photo/2014/12/27/14/37/living-room-581073_1280.jpg" class="img-fluid" alt="Image" />
+                                <img src="https://www.judoinside.com/photos/hans/2019/Grand_Prix_Tel_Aviv/20180124_ijf_fb_final_52_majlinda_kelmendi.jpg" class="img-fluid" alt="Image" />
                                 <div class="img-overlay bg-dark"></div>
                             </div>
                         </div>
@@ -52,24 +46,23 @@
 
         <div class="col-lg-6 col-md-6 col-12 order-1 order-md-2">
             <div class="section-title ml-lg-5">
-                <h5 class="text-custom font-weight-normal mb-3">About Us</h5>
                 <h4 class="title mb-4">
                     Our mission is to <br />
-                    make your life easier.
+                    encourage for participation.
                 </h4>
-                <p class="text-muted mb-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit quod debitis praesentium pariatur temporibus ipsa, cum quidem obcaecati sunt?</p>
+                <p class="text-muted mb-0">We encourage participation in local and regional judo tournaments and events, fostering a sense of camaraderie and sportsmanship among our members.</p>
 
                 <div class="row">
                     <div class="col-lg-6 mt-4 pt-2">
                         <div class="media align-items-center rounded shadow p-3">
                             <i class="fa fa-play h4 mb-0 text-custom"></i>
-                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Responsive</a></h6>
+                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Videos</a></h6>
                         </div>
                     </div>
                     <div class="col-lg-6 mt-4 pt-2">
                         <div class="media align-items-center rounded shadow p-3">
                             <i class="fa fa-file-download h4 mb-0 text-custom"></i>
-                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Free Download</a></h6>
+                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Free Technicues Download</a></h6>
                         </div>
                     </div>
                     <div class="col-lg-6 mt-4 pt-2">
@@ -81,7 +74,7 @@
                     <div class="col-lg-6 mt-4 pt-2">
                         <div class="media align-items-center rounded shadow p-3">
                             <i class="fa fa-image h4 mb-0 text-custom"></i>
-                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Development</a></h6>
+                            <h6 class="ml-3 mb-0"><a href="javascript:void(0)" class="text-dark">Our Session pics</a></h6>
                         </div>
                     </div>
                 </div>
