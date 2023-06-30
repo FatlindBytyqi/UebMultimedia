@@ -1,17 +1,22 @@
 <template>
     <ServiceBanner />
     <br />
-    <OurRooms />
+    <OurServices />
+<LoadSpinnerComponent/>
+
 </template>
 
 <script>
-import OurRooms from '@/components/OurRooms.vue';
+import OurServices from '@/components/OurServices.vue';
 import ServiceBanner from '@/components/ServiceBanner.vue';
+import LoadSpinnerComponent from '@/components/LoadSpinnerComponent.vue';
+
 
 export default {
     components: {
-        OurRooms,
-        ServiceBanner
+        OurServices,
+        ServiceBanner,
+    LoadSpinnerComponent
     }
 }
 
