@@ -4,11 +4,11 @@
     <div class="container">
       <div class="row gy-5 gy-lg-0 gx-lg-6 gx-xxl-8 align-items-lg-center">
         <div class="col-12 col-lg-6">
-          <img class="img-fluid rounded" loading="lazy" src="../assets/hotel-1.png" alt="">
+          <img class="img-fluid rounded" loading="lazy" src="../assets/vcc.jpg" alt="">
         </div>
         <div class="col-12 col-lg-6">
-          <h2 class="h1 mb-3">Why Choose Us?</h2>
-          <p class="lead fs-4 text-secondaryX mb-5">With years of experience and deep industry knowledge, we have a proven track record of success and are constantly pushing ourselves to stay ahead of the curve.</p>
+          <h2 class="h1 mb-3">Why Choose Judo?</h2>
+          <p class="lead fs-4 text-secondaryX mb-5">Judo is a martial art that can be practiced and enjoyed at any age. Whether you start as a child or an adult, you can continue to learn and progress throughout your life. Judo offers a path of continual self-improvement, allowing individuals to set and achieve new goals.</p>
           <div class="d-flex align-items-center mb-3">
             <div class="me-3 text-primary">
               <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
@@ -16,7 +16,7 @@
               </svg>
             </div>
             <div>
-              <p class="fs-5 m-0">Our evolution procedure is super intelligent.</p>
+              <p class="fs-5 m-0">Character development</p>
             </div>
           </div>
           <div class="d-flex align-items-center mb-3">
@@ -26,7 +26,7 @@
               </svg>
             </div>
             <div>
-              <p class="fs-5 m-0">We deliver services beyond expectations.</p>
+              <p class="fs-5 m-0">Lifelong learning</p>
             </div>
           </div>
           <div class="d-flex align-items-center mb-5">
@@ -36,10 +36,10 @@
               </svg>
             </div>
             <div>
-              <p class="fs-5 m-0">Let's hire us to reach your objectives.</p>
+              <p class="fs-5 m-0">Mental discipline</p>
             </div>
           </div>
-          <button type="button" class="btn btn-outline-primary btn-2xl rounded-pill px-4 gap-3">Connect Now</button>
+          <button type="button" class="btn btn-outline-primary btn-2xl rounded-pill px-4 gap-3">Enrol Now</button>
         </div>
       </div>
     </div>
