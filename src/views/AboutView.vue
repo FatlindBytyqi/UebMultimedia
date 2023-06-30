@@ -5,7 +5,7 @@
   <br />
   <WhoAreWeVue />
   <br />
-  <AboutOurRoomSectionVue />
+  <AboutOurServicesSection />
 <LoadSpinnerComponent/>
 
 </template>
@@ -14,7 +14,7 @@
 import WhyChooseUsVue from '@/components/WhyChooseUs.vue';
 import WhoAreWeVue from '@/components/WhoAreWe.vue';
 import AboutBanner from '@/components/AboutBanner.vue';
-import AboutOurRoomSectionVue from '@/components/AboutOurRoomSection.vue';
+import AboutOurServicesSection from '@/components/AboutOurServicesSection.vue';
 import LoadSpinnerComponent from '@/components/LoadSpinnerComponent.vue';
 
 
@@ -23,7 +23,7 @@ export default {
     WhyChooseUsVue,
     WhoAreWeVue,
     AboutBanner,
-    AboutOurRoomSectionVue,
+    AboutOurServicesSection,
     LoadSpinnerComponent
   }
 }

@@ -6,8 +6,8 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-9 col-lg-8 col-xl-7 col-xxl-6">
-        <h2 class="fs-5 mb-3 text-white text-uppercase">Our Services & Expertise</h2>
-        <h3 class="display-5 text-white mb-4">We are a design agency studio delivering custom creative & unique websites.</h3>
+        <h2 class="fs-5 mb-3 text-white text-uppercase">Judo, more than Sport!</h2>
+        <h3 class="display-5 text-white mb-4">Unleash Your Inner Strength: Master the Art of Judo!</h3>
         <a href="#!" class="btn btn-light btn-xl rounded mb-0 text-nowrap">Join Us</a>
       </div>
     </div>
