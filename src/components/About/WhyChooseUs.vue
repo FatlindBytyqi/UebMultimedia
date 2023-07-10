@@ -5,7 +5,7 @@
       <div class="row gy-5 gy-lg-0 gx-lg-6 gx-xxl-8 align-items-lg-center">
         <div class="col-12 col-lg-6 order-lg-first">
           <video class="video-fluid rounded" controls autoplay loop muted width="600" height="600"> 
-            <source src="../assets/judoVideo.mp4" type="video/mp4">
+            <source src="../../assets/judoVideo.mp4" type="video/mp4">
           </video>
         </div>
         <div class="col-12 col-lg-6">

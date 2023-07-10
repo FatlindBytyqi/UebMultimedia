@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row gy-5 gy-lg-0 gx-lg-6 gx-xxl-8 align-items-lg-center">
       <div class="col-12 col-lg-5">
-        <img class="img-fluid rounded" loading="lazy" src="../assets/judoooo.jpg" alt="">
+        <img class="img-fluid rounded" loading="lazy" src="../../assets/judoooo.jpg" alt="">
       </div>
       <div class="col-12 col-lg-7">
         <h2 class="h1 mb-3">Who Are We?</h2>

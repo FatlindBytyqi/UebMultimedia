@@ -11,10 +11,10 @@
 </template>
 
 <script>
-import AboutBanner from '@/components/AboutBanner.vue';
-import WhyChooseUsVue from '@/components/WhyChooseUs.vue';
-import WhoAreWeVue from '@/components/WhoAreWe.vue';
-import AboutOurServicesSection from '@/components/AboutOurServicesSection.vue';
+import AboutBanner from '@/components/About/AboutBanner.vue';
+import WhyChooseUsVue from '@/components/About/WhyChooseUs.vue';
+import WhoAreWeVue from '@/components/About/WhoAreWe.vue';
+import AboutOurServicesSection from '@/components/About/AboutOurServicesSection.vue';
 import LoadSpinnerComponent from '@/components/LoadSpinnerComponent.vue';
 
 
