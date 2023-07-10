@@ -1,5 +1,4 @@
 <template>
-  <!-- Testimonial 3 - Bootstrap Brain Component -->
   <section class="bg-light py-5 py-xl-8">
     <div class="container mb-5 mb-md-6 mb-xl-10">
       <div class="row justify-content-md-center">

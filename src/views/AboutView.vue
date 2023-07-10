@@ -20,9 +20,9 @@ import LoadSpinnerComponent from '@/components/LoadSpinnerComponent.vue';
 
 export default {
   components: {
+    AboutBanner,
     WhyChooseUsVue,
     WhoAreWeVue,
-    AboutBanner,
     AboutOurServicesSection,
     LoadSpinnerComponent
   }

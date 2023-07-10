@@ -1,7 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <!-- <a class="navbar-brand" href="#">DT HOTEL</a> -->
       <a class="navbar-brand" href="#">
             <PixiLogoHeaderComponent />
         </a>
@@ -10,14 +9,8 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#"><router-link to="/">Home</router-link></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><router-link to="/about">About</router-link></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><router-link to="/service">Service</router-link></a>
+          <li class="nav-item" v-for="route in this.routes" :key="route.name">
+            <a class="nav-link active" aria-current="page" href="#"><router-link :to="route.path">{{route.name}}</router-link></a>
           </li>
         </ul>
         <div class="d-flex">
@@ -48,6 +41,16 @@ import PixiLogoHeaderComponent from '@/components/PixiLogoHeaderComponent.vue'
 export default {
   components: {
     PixiLogoHeaderComponent
-  }
+  },
+  data(){
+			return {
+				routes: [	
+					{ path: '/', name: 'Home'},
+					{ path: '/about', name: 'About'},
+					{ path: '/service', name: 'Service'},
+					{ path: '/contact', name: 'Contact'},
+				]
+			}
+		}
 }
 </script>

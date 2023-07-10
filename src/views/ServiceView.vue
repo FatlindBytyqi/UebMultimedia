@@ -2,20 +2,22 @@
     <ServiceBanner />
     <br />
     <OurServices />
+    <CaruselComponent/>
 <LoadSpinnerComponent/>
 
 </template>
 
 <script>
-import ServiceBanner from '@/components/ServiceBanner.vue';
-import OurServices from '@/components/OurServices.vue';
+import ServiceBanner from '@/components/Service/ServiceBanner.vue';
+import OurServices from '@/components/Service/OurServices.vue';
+import CaruselComponent from '@/components/Service/CaruselComponent.vue';
 import LoadSpinnerComponent from '@/components/LoadSpinnerComponent.vue';
-
 
 export default {
     components: {
-        OurServices,
         ServiceBanner,
+        OurServices,
+        CaruselComponent,
     LoadSpinnerComponent
     }
 }

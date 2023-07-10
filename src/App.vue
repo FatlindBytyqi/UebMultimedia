@@ -35,8 +35,7 @@ nav a.router-link-exact-active {
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue';
-import FooterComponent from './components/FooterComponent.vue';
-
+import FooterComponent from './components/Footer/FooterComponent.vue';
 export default {
   components: {
     HeaderComponent,
