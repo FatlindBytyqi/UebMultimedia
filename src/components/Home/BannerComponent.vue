@@ -45,6 +45,7 @@
         text.position.x += speed;
         if (text.position.x > app.screen.width + text.width / 2) {
           text.position.x = -text.width / 2;
+          
         }
       });
     },
