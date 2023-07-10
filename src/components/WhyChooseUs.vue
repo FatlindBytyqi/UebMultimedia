@@ -1,13 +1,15 @@
 <template>
-    <!-- About 2 - Bootstrap Brain Component -->
+  <!-- About 2 - Bootstrap Brain Component -->
   <section class="bg-light py-5 py-xl-8">
     <div class="container">
       <div class="row gy-5 gy-lg-0 gx-lg-6 gx-xxl-8 align-items-lg-center">
-        <div class="col-12 col-lg-6">
-          <img class="img-fluid rounded" loading="lazy" src="../assets/vcc.jpg" alt="">
+        <div class="col-12 col-lg-6 order-lg-first">
+          <video class="video-fluid rounded" controls autoplay loop muted width="600" height="600"> 
+            <source src="../assets/judoVideo.mp4" type="video/mp4">
+          </video>
         </div>
         <div class="col-12 col-lg-6">
-          <h2 class="h1 mb-3">Why Choose Judo?</h2>
+          <canvas ref="canvas"></canvas>
           <p class="lead fs-4 text-secondaryX mb-5">Judo is a martial art that can be practiced and enjoyed at any age. Whether you start as a child or an adult, you can continue to learn and progress throughout your life. Judo offers a path of continual self-improvement, allowing individuals to set and achieve new goals.</p>
           <div class="d-flex align-items-center mb-3">
             <div class="me-3 text-primary">
@@ -39,10 +41,45 @@
               <p class="fs-5 m-0">Mental discipline</p>
             </div>
           </div>
-          <button type="button" class="btn btn-outline-primary btn-2xl rounded-pill px-4 gap-3">Enrol Now</button>
+          <button type="button" class="btn btn-outline-primary btn-2xl rounded-pill px-4 gap-3">Enroll Now</button>
         </div>
       </div>
     </div>
   </section>
-  </template>
-  
+</template>
+<script>
+import * as PIXI from 'pixi.js';
+
+export default {
+  mounted() {
+    const app = new PIXI.Application({
+      view: this.$refs.canvas,
+      width: 800,
+      height: 600,
+      backgroundColor: 0xf8f9fa,
+    });
+
+    const textStyle = new PIXI.TextStyle({
+      fontFamily: 'Arial',
+      fontSize: 48,
+      fill: 'black', 
+      fontWeight: 'bold',
+    });
+
+    const text = new PIXI.Text('What is Judo?', textStyle);
+    text.anchor.set(0.5);
+    text.position.set(app.screen.width / 2, app.screen.height / 2);
+    app.stage.addChild(text);
+
+    const amplitude = 20;
+    const frequency = 0.002;
+    const initialY = text.position.y;
+
+    app.ticker.add((delta) => {
+      const time = performance.now() * frequency;
+      const displacement = Math.sin(time) * amplitude;
+      text.position.y = initialY + displacement;
+    });
+  },
+};
+</script>

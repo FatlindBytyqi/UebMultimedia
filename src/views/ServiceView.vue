@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import OurServices from '@/components/OurServices.vue';
 import ServiceBanner from '@/components/ServiceBanner.vue';
+import OurServices from '@/components/OurServices.vue';
 import LoadSpinnerComponent from '@/components/LoadSpinnerComponent.vue';
 
 

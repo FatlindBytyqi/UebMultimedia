@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import TestimonialVue from '@/components/TestimonialVue.vue';
 import LandingPage from '@/components/LandingPage.vue';
 import BannerComponent from '@/components/BannerComponent.vue';
+import TestimonialVue from '@/components/TestimonialVue.vue';
 import LoadSpinnerComponent from '@/components/LoadSpinnerComponent.vue';
 
 

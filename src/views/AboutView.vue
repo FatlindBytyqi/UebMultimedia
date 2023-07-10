@@ -1,7 +1,7 @@
 <template>
-  <WhyChooseUsVue />
-  <br />
   <AboutBanner />
+  <br />
+  <WhyChooseUsVue />
   <br />
   <WhoAreWeVue />
   <br />
@@ -11,9 +11,9 @@
 </template>
 
 <script>
+import AboutBanner from '@/components/AboutBanner.vue';
 import WhyChooseUsVue from '@/components/WhyChooseUs.vue';
 import WhoAreWeVue from '@/components/WhoAreWe.vue';
-import AboutBanner from '@/components/AboutBanner.vue';
 import AboutOurServicesSection from '@/components/AboutOurServicesSection.vue';
 import LoadSpinnerComponent from '@/components/LoadSpinnerComponent.vue';
 
