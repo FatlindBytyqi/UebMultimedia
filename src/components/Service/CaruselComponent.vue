@@ -10,10 +10,10 @@
       <img src="https://www.leparisien.fr/resizer/GngA8tJnu0yArs6-dYqAhB1WbT8=/arc-anglerfish-eu-central-1-prod-leparisien/public/MK63RBQRENH6HDA3W2GTTT2SYE.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../../assets/judo.png" class="d-block w-100" alt="...">
+      <img src="../../assets/akil.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="../../assets/akil2.jpg" class="d-block w-100" alt="...">
+      <img src="../../assets/judohorizontal.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
